@@ -1,0 +1,25 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Environment and Secret files
+.env
+.env.*
+*.pem
+*.key
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Potential build/artifact directories if run in local toolchains
+node_modules/
+dist/
+build/
+cache/
+artifacts/
